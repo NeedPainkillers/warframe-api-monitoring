@@ -1,0 +1,1 @@
+python3 json-exporter.py https://api.warframestat.us/pc

@@ -1,0 +1,12 @@
+scrape_configs:
+  # - job_name: 
+  #   metrics_path: /metrics
+  #   honor_labels: false
+  #   honor_timestamps: true
+  #   sample_limit: 0
+  - job_name: warfame-api
+    scheme: http
+    static_configs:
+    # - targets: ['api.warframestat.us']
+    - targets: ['telegraf:9273']
+    metrics_path: /metrics

@@ -1,0 +1,1 @@
+docker-compose -p grafana-wf -f docker-compose.grafana.yml up -d
