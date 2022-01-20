@@ -7,6 +7,5 @@ scrape_configs:
   - job_name: warfame-api
     scheme: http
     static_configs:
-    # - targets: ['api.warframestat.us']
     - targets: ['telegraf:9273']
     metrics_path: /metrics
